@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <!-- style -->
+    <link rel="stylesheet" href="./CSS/style.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="./CSS/all.min.css">
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <!-- Favico -->
+    <link rel="shortcut icon" href="./favico.png" type="image/x-icon">
+</head>
+<body>
+    <div class="box">
+        <div class="container">
+            <header>
+                <h1 class="tit">To Do List</h1>
+                <p>Your busy life deserves this.</p>
+                <form action="" class="searchForm">
+                    <div class="search">
+                        <input type="text" class="searchInput" placeholder="Word To Seach">
+                        <i class="fas fa-search searchBtn"></i>
+                    </div>
+                </form>
+            </header>
+            <ul class="list">
+                <li>
+                    <span class="text">HTML</span>
+                    <i class="fas fa-trash-alt deleteBtn"></i>
+                </li>
+                <li>
+                    <span class="text">CSS</span>
+                    <i class="fas fa-trash-alt deleteBtn"></i>
+                </li>
+                <li>
+                    <span class="text">JAVASCRIPT</span>
+                    <i class="fas fa-trash-alt deleteBtn"></i>
+                </li>
+            </ul>
+            <form action="" class="footerForm">
+                <h3>Add A New Task</h3>
+                <div class="add">
+                    <input type="text" class="newTask" placeholder="Your Task">
+                    <i class="fas fa-plus addBtn"></i>
+                </div>
+                <div class="hideBox">
+                    <label for="hideBtn">Hide All Tasks</label>
+                    <input type="checkbox" name="" id="hideBtn">
+                </div>
+            </form>
+        </div>
+    </div>
+    <!-- Script -->
+    <script src="./JS/app.js"></script>
+</body>
+</html>
